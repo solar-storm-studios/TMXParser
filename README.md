@@ -8,13 +8,13 @@ TMXParser is a Tiled Map Editor *.tmx map xml file parser. It is currently a com
 ##Features
 
 * Completely functionless giving access to the raw map data.
+* Complete properties support.
 * Support for multiple:
   * Tilesets
   * Tile Layers
   * Object Groups
   * Objects ( Currently only rectangular and tile based objects )
   * Image Layers
-* Complete properies support.
 
 ##TODO
 
