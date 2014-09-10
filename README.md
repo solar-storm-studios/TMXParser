@@ -112,7 +112,7 @@ int main()
   return 0;
 }
 ```
-==Example with TSXParser
+##Example with TSXParser
 
 ```cpp
 #include <iostream>
