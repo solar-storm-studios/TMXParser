@@ -138,7 +138,9 @@ int main()
   std::cout << std::endl;
   for( int i = 0; i < tmx.tilesetList.size(); i++ ) {
     std::cout << "Tileset[ First GID: " << tmx.tilesetList[i].firstGID << " Source: " << tmx.tilesetList[i].source << " ]" << std::endl;
-
+    //////////////////////
+    //TSXParse starts here
+    //////////////////////
     TSX::Parser tsx;
     tsx.load( tmx.tilesetList[i].source );
 
@@ -201,6 +203,9 @@ int main()
             std::cout << "->" << iter->first << " : " << iter->second << std::endl;
         }
     }
+    ////////////////////
+    //TSXParse ends here
+    ////////////////////
   }
 
   std::cout << std::endl;
